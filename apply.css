@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(240, 237, 237);
+    flex-grow: 1;
+}
+
+.menu-bar{
+    display: flex;
+    margin-left: 500px;
+}
+
+.line-up{
+    align-items: center;
+}
+
+li{
+display: inline-flex;
+list-style: none;
+margin: 15px;
+padding: 15px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+color: brown;
+}
+
+.line-2{
+border-style: solid;
+height: 3 3px;
+width: 3 3px;
+text-indent: 0px;
+background: brown;
+border-color: brown;
+border-radius: 15px;
+}
+
+.line-2 a{
+color: whitesmoke;
+}
+
+.beside{
+float: right;
+margin-right: 80px;
+border-style: solid;
+border: 0 30 60px;
+height: 350px;
+width: 310px;
+bottom: 10px;
+border-radius: 10px;
+padding: 10 10px;
+background-color: brown;
+border-color: brown;
+
+}
+
+p{
+font-family: Arial, Helvetica, sans-serif;
+font-size: xx-large;
+text-align: center;
+margin-top: 20px;
+margin-bottom: 20px;
+color: whitesmoke;
+}
+
+.beside-3, label{
+color: whitesmoke;
+padding-left: 5px;
+}
+
+.beside-4 {
+text-align: start;
+background: white;
+border-radius: 10px;
+}
+
+
+label, input{
+padding-right: 80px;
+margin: 10px;
+}
+
+input{
+width: 200px;
+height: 35px;
+border-radius: 10px;
+border-color: brown;
+}
+
+::placeholder{
+padding: 10px;
+} 
+
+
+.page{
+margin-top: 0px;
+font-family:Arial, Helvetica, sans-serif;
+font-weight:bolder;
+font-weight: 900;
+font-display: 600px;
+font-size:280%;
+padding-left: 100px;
+}
+
+.page-2{
+margin-top: 30px;
+display: inline-block;
+padding-left: 100px;
+}
+
+.steper{
+margin-top: 30px;
+padding-left: 100px;
+display: flex;
+
+}
+
+.step-1{
+font-family: Arial, Helvetica, sans-serif;
+color: whitesmoke;
+margin: 15px;
+border: solid;
+padding: 10px;
+border-radius: 20px;
+background: brown;
+}
+
+.step-2{
+margin: 15px;
+font-family: Arial, Helvetica, sans-serif;
+color: brown;
+margin: 15px;
+border: solid;
+padding: 10px;
+border-radius: 20px;
+background: whitesmoke;
+}
+
+.steper-2{
+padding-left: 100px;
+margin-top: 20px;
+letter-spacing: 5px;
+}
+
+a:nth-child(){
+border-bottom: none;
+}
